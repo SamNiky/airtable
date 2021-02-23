@@ -1,0 +1,25 @@
+{'records': [{
+    'id': 'recAZLAYhxhPgYBDw',
+    'fields': {
+        'Методы': ['Психоанализ', 'Коучинг', 'Музыкотерапия'],
+        'Фотография': [{
+            'id': 'attY7G4ysiIDnSaUw',
+            'url': 'https://dl.airtable.com/.attachments/7da0d4c7963babf742137abc4e9a1a99/5f547505/1.jpg',
+            'filename': '1.jpg',
+            'size': 1045553,
+            'type': 'image/jpeg',
+            'thumbnails': {
+                'small': {
+                    'url': 'https://dl.airtable.com/.attachmentThumbnails/33589c8479683db065f99673a5f5a4fe/0c0abe62',
+                    'width': 27,
+                    'height': 36},
+                'large': {
+                    'url': 'https://dl.airtable.com/.attachmentThumbnails/294c23dbb27ebc13b3b83f5225dcd90f/c31bee49',
+                    'width': 512,
+                    'height': 683},
+                'full': {
+                    'url': 'https://dl.airtable.com/.attachmentThumbnails/90e6285452aacd6ffa975e76cc2dfea3/e74d7881',
+                    'width': 3000,
+                    'height': 3000}}}],
+        'Имя': 'Василий'},
+    'createdTime': '2021-02-02T14:29:36.000Z'}
