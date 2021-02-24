@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<div class="container w-75 mt-4">
+<div class="row mb-3">
+				<h4>Психотерапевты:</h4>
+</div>
+{% if cur_info %}
+	{% for list in cur_info %}
+
+<a href="{% url 'info:lc' list.recid %}" class="btn btn-light w-100 mx-auto mb-3">{{ list.name }}</a>
+
+	{% endfor %}
+{% endif %}
+</div>
+</body>
+</html>

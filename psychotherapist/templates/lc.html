@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+{% if info %}
+<div class="row mt-5 mx-5">
+	<div class="col-sm-4">
+		<img src="{{ info.photo }}" alt="" class="img-fluid">
+	</div>
+	<div class="col">
+		<div class="container">
+			<h3 class="text-center bg-light mb-4">{{ info.name }}</h3>
+			<div class="row">
+				<h4>Методы:</h4>
+			</div>
+			<div class="row row-cols-4 text-center">
+			{% for m in info.method %}
+				<div class="col mb-2"><div class="bg-info rounded-pill"><smal>{{ m }}</smal></div></div>
+<!--				<div class="col mb-2"><div class="bg-info rounded-pill"><smal>Коучинг</smal></div></div>-->
+<!--				<div class="col mb-2"><div class="bg-info rounded-pill"><smal>Психосинтез</smal></div></div>-->
+<!--				<div class="col mb-2"><div class="bg-info rounded-pill"><smal>Сказкотерапия</smal></div></div>-->
+<!--				<div class="col mb-2"><div class="bg-info rounded-pill"><smal>Сказкотерапия</smal></div></div>-->
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+{% endif %}
+</div>
+	
+</body>
+</html>
