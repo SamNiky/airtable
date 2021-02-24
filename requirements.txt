@@ -1,8 +1,7 @@
-airtable==0.4.8
-airtable-python-wrapper==0.15.1
 asgiref==3.3.1
 certifi==2020.12.5
 chardet==4.0.0
+click==7.1.2
 Django==3.1.7
 idna==2.10
 psycopg2-binary==2.8.6
