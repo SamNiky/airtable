@@ -1,6 +1,6 @@
 from API_airtable import get, cleandata
 from SQL_model import updateclear, addclear, addraw, searchclear, removeclear
-from settings import ATURL, session
+from settings import ATURL
 from datetime import datetime
 
 

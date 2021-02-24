@@ -59,22 +59,3 @@ def removeclear(date):
           session.close()
      else:
           print('delete is none')
-
-# DataBase.metadata.create_all(bind=engine)
-# aaa = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-# print(aaa)
-# removeclear(aaa)
-# answers = session.query(Cleardata).filter(Cleardata.upload < aaa)
-# print(answers)
-# for i in answers:
-#      print(i.name)
-#      session.delete(i)
-#      session.commit()
-# if answers is not None:
-#      print('good')
-# else:
-#      print('false')
-
-# session.add(Rawdata)
-# session.commit()
-# session.close()
